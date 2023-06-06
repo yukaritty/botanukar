@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botanukar Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/product.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
+</head>
+<body>
+    <!-- <button id="testing">click me</button> -->
+    <!-- Here is for Modal -->
+    <div class="wrapper flex modal" id="myModal1">
+        <div class="modal-content">
+            <a href="" class="closebtn">&times;</a>
+
+    
+        <h1>YOUR CART</h1>
+        <ul class="list-on-cart">
+
+            <li class="item">
+                <span class="name-on-cart">Himalayan Premium serum</span>
+                <span class="price-on-cart">$799</span>
+            </li>
+        </ul>
+        <h2>TOTAL</h2>
+        </div>
+    </div>
+    <!-- The End of Modal -->
+    <div class="wrapper flex">
+        <header>
+            <div class="information">
+                <p>Free Shipping on Orders Over €39</p>
+            </div>
+            <div class="menu">
+                <div class="menu-wrapper">
+                    <a href="index.html"><img src="assets/images/logo.png" alt="logo" class="logo hover-img" id="logo-menu"></a>
+                    <ul id="laptop-menu">
+                        <li><a href="index.html#best-selling">Best Sellers</a></li>
+                        <li><a href="product.html">Face</a></li>
+                        <li><a href="product.html">Body</a></li>
+                        <li><a href="product.html">Hair</a></li>           
+                        <li><a href="product.html">Room</a></li>
+                        <li><a href="index.html#concept">Concept</a></li>
+                        <li><a href="index.html#blog">Blog</a></li>
+                    </ul>
+                    <ul id="menu-list-icons">
+                        <li>
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"> <i class="fa-solid fa-cart-shopping" id="cart-icon"></i></a>
+                            <p id="item-nm">0</p>
+                        </li>
+                        <!-- <li>
+                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li> -->
+                    </ul>
+                    <a href="menu.html" id="menu-icon"><i class="fa-solid fa-bars menu-bar" id="menu-bar"></i></a>
+                </div>
+                <!-- <button type="text" id="search-menu">Search
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>      -->
+                <input type="search" id="search-menu" placeholder="What are you looking for?"> 
+                <button type="submit" class="search-submit-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </header>
+        <section class="product">
+            <div class="filter">
+                <!-- <div class="serum">Serum</div>
+                <div class="bathsalt">Bath Salt</div>
+                <div class="cream">Facial Cream</div> -->
+                <button class="all">All Products</button>
+                <button class="tonner-btn">Tonner</button>
+                <button class="serum-btn">Serum</button>
+                <button class="facecream-btn">Face Cream</button>
+                <button class="bathsalt-btn">Bath Salt</button>
+                <button class="aromaoil-btn">Aroma Oil</button>
+            </div>
+            <div class="item-wrapper" id="product-search">
+                <div class="item serum" id="item1">
+                    <img src="assets/images/bottle1.jpg" alt="Peony Serum">
+                    <p class="item-name">Peony Serum</p>
+                    <p class="price">€ 15.00</p>
+                    <input type="text" value=15 hidden>
+                    <p class="review">★★★★</p>
+                    <p class="review-number">7 reviews</p>
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="item bathsalt" id="peony-bath-salt">
+                    <img src="assets/images/bottle1.jpg" alt="Peony Bath Salt">
+                    <p class="item-name">Peony Bath Salt</p>
+                    <p class="price">€ 17.50</p>
+                    <input type="text" value=17.50 hidden>
+                    <p class="review">★★★★</p>
+                    <p class="review-number">5 reviews</p>
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="item facecream" id="item3">
+                    <img src="assets/images/bottle1.jpg" alt="Peony Face Cream">
+                    <p class="item-name">Peony Face Cream</p>
+                    <p class="price">€ 15.00</p>
+                    <p class="review">★★★★</p>
+                    <p class="review-number">7 reviews</p>
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="item aromaoil" id="item4">
+                    <img src="assets/images/bottle1.jpg" alt="Rose Aroma Oil">
+                    <p class="item-name">Rose Aroma Oil</p>
+                    <p class="price">€ 15.00</p>
+                    <p class="review">★★★★</p>
+                    <p class="review-number">7 reviews</p>
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="item aromaoil" id="">
+                    <img src="assets/images/bottle1.jpg" alt="Bergamot Aroma Oil">
+                    <p class="item-name">Bergamot Aroma Oil</p>
+                    <p class="price" >€ 15.00</p>
+                    <p class="review">★★★★</p>
+                    <p class="review-number">7 reviews</p>
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="item tonner" id="">
+                    <img src="assets/images/bottle1.jpg" alt="Bergamot Tonner">
+                    <p class="item-name">Bergamot Tonner</p>
+                    <p class="price">€ 17.50</p>
+                    <p class="review">★★★★</p>
+                    <p class="review-number">5 reviews</p>
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="item serum" id="">
+                    <img src="assets/images/bottle1.jpg" alt="Lavender Serum">
+                    <p class="item-name">Lavender Serum</p>
+                    <p class="price">€ 15.00</p>
+                    <p class="review">★★★★</p>
+                    <p class="review-number">7 reviews</p>
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="item bathsalt" id="">
+                    <img src="assets/images/bottle1.jpg" alt="Lavender Bath Salt">
+                    <p class="item-name">Lavender Bath Salt</p>
+                    <p class="price">€ 15.00</p>
+                    <p class="review">★★★★</p>
+                    <p class="review-number">7 reviews</p>
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <div class="mycontact">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p class="text-gr">Botanukar@gmail.com</p>
+                </div>
+                <div class="contact-icon">
+                    <i class="fa-solid fa-phone"></i>
+                    <p class="text-gr">+11 1111 1111</p>
+                </div>
+                <div class="contact-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="text-gr">1111 22nd Road, Budapest, Hungary</p>
+                </div>
+            </div> 
+            <div class="sns">               
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </section>
+        <footer class="flex">
+            <p>@Botanukar INC,</p>
+            <p>Privacy Policy Terms & Conditions  Cookies</p>
+        </footer>
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="assets/js/javascript.js"></script>
+    <script src="assets/js/filterProduct.js"></script>
+    <script src="assets/js/addcart.js"></script>
+    <script src="assets/js/modalWindow.js"></script>
+</body>
+</html>

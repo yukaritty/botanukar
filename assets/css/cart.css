@@ -1,0 +1,25 @@
+.modal{
+    /* display: none; */
+    position: fixed;
+    top:0;
+    right:0;
+    padding-top: 100px;
+    width:25%;
+    height: 70%;
+    /* background: rgba(0,0,0,0.8); */
+    /* color: white; */
+}
+.modal-content{
+    width: 80%;
+    position: relative;
+    margin:0 auto;
+    border: 1px solid black;
+    animation-name: animateTop;
+    animation-duration: 0.6s;
+
+}
+
+@keyframes animateTop{
+    from {top:-300px; opacity:0;}
+    to{top:0; opacity:1;}
+}

@@ -1,0 +1,12 @@
+.x{
+    font-size: 40px;
+}
+
+.menu-listup{
+    background:#f2905792;
+    padding: 30px 0 20px 0;
+}
+ul li{
+    font-size: 30px;
+    margin: 10px;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botanukar |Deeply Relax with Botanical Essence Cosmetics</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper flex">
+        <header>
+            <div class="information">
+                <p>Free Shipping on Orders Over €39</p>
+            </div>
+            <div class="menu">
+                <div class="menu-wrapper">
+                    <a href="index.html"><img src="assets/images/logo.png" alt="logo" class="logo hover-img" id="logo-menu"></a>
+                    <ul id="laptop-menu">
+                        <li><a href="#best-selling">Best Sellers</a></li>
+                        <li><a href="product.html">Face</a></li>
+                        <li><a href="product.html">Body</a></li>
+                        <li><a href="product.html">Hair</a></li>           
+                        <li><a href="product.html">Room</a></li>
+                        <li><a href="#concept">Concept</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                    <ul id="menu-list-icons">
+                        <li>
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        <li>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <a href="#"> <i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                        <!-- <li>
+                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li> -->
+                    </ul>
+                    <a href="menu.html" id="menu-icon"><i class="fa-solid fa-bars menu-bar" id="menu-bar"></i></a>
+                </div>
+                <!-- <button type="text" id="search-menu">Search
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>      -->
+                <input type="search" id="search-menu" placeholder="What are you looking for?"> 
+                <button type="submit" class="search-submit-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </header>
+        <section class="video">
+            <video src="assets/videos/puple-flower.mp4" controls>
+            </video>
+
+        </section>
+        <section class="best-selling flex" id="best-selling">
+            <h2>Best Selling Items</h2>
+            <div id="slider">
+                <a href="javascript:void(0)" class="control_next control_next1"> > </a>
+                <a href="javascript:void(0)" class="control_prev control_prev1"> < </a>
+                <ul>
+                    <li>
+                        <div class="slide">
+                            <img src="assets/images/rose_serum.jpg" alt="rose_serum">
+                            <p>Rose Serum</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide">
+                            <img src="assets/images/rose_serum.jpg" alt="rose_serum">
+                            <p>Rose Serum</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide">
+                            <img src="assets/images/rose_serum.jpg" alt="rose_serum">
+                            <p>Rose Serum</p>
+                        </div>
+                    </li>
+                </ul>
+           </div>
+            <button>Shop Now</button>
+        </section>
+        <section class="pickup flex">
+            <h2>Pick Up Scents</h2>
+            <div class="image-wrapper" id="image-pickup" onmouseenter="displayIn()">
+                <div id="peony" style="display: none;">
+                        <h3>Peony</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="item-wrapper" id="items-peony">
+                    <div class="item" id="item1">
+                        <img src="assets/images/bottle1.jpg" alt="Peony Serum" id="animateBox1">
+                        <p class="item-name">Peony Serum</p>
+                        <p class="price">€ 15.00</p>
+                        <p class="review">★★★★</p>
+                        <p class="review-number">7 reviews</p>
+                    </div>
+                    <div class="item" id="item2">
+                        <img src="assets/images/bottle1.jpg" alt="Peony Bath Salt" id="animateBox2">
+                        <p class="item-name">Peony Bath Salt</p>
+                        <p class="price">€ 17.50</p>
+                        <p class="review">★★★★</p>
+                        <p class="review-number">5 reviews</p>
+                    </div>
+                </div>
+                <button id="moreItems">More Items</button>
+            </div>
+        </section>
+        <section class="concept flex" id="concept">
+            <div class="text-container">
+                <h3>Botanukar</h3>
+                <p>Make Pleasure for Your Bath Time<br>
+                    Feeling 100 % Natural Scents.<br>
+                    Shampoo and Body Wash<br>
+                    with Pure Essential Oil<br>
+                    from Highly Selected Flower Field</p>
+            </div>
+            <img src="assets/images/feelnature1.jpg" alt="">
+        </section>
+        <section class="blog">
+            <h2>Read the Recent Posts</h2>
+            <div class="blog-wrapper">
+                <div class="blog-container" id="slider2">
+                    <a href="javascript:void(0)" class="control_next control_next2"> > </a>
+                    <a href="javascript:void(0)" class="control_prev control_prev2"> < </a>    
+                    <ul>
+                        <li>
+                            <img src="assets/images/rosemary.jpg" alt="rosemary_grow">
+                            <p>|　April 9, 2023</p>
+                            <h7>Rosemary is easy to grow</h5>        
+                        </li>
+                        <li>
+                            <img src="assets/images/rosemary.jpg" alt="rosemary_grow">
+                            <p>|　April 9, 2023</p>
+                            <h7>Rosemary is easy to grow</h5>        
+                        </li>
+                        <li>
+                            <img src="assets/images/rosemary.jpg" alt="rosemary_grow">
+                            <p>|　April 9, 2023</p>
+                            <h7>Rosemary is easy to grow</h5>        
+                        </li>
+                    </ul>
+                </div>
+                <button>Read Our Blog</button>
+            </div>
+            <div class="signup">
+                <h5><b>Sign Up to receive the latest 
+                    news and special offers.</b></h5>
+                <p>Unsubscribe anytime.</p>
+        
+                <input type="text" id="email" placeholder="jane-doe@email.com">
+                <a href="#"><input type="submit" value="SUBSCRIBE"></a>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <div class="mycontact">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p class="text-gr">Botanukar@gmail.com</p>
+                </div>
+                <div class="contact-icon">
+                    <i class="fa-solid fa-phone"></i>
+                    <p class="text-gr">+11 1111 1111</p>
+                </div>
+                <div class="contact-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="text-gr">1111 22nd Road, Budapest, Hungary</p>
+                </div>
+            </div> 
+            <div class="sns">               
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </section>
+        <footer class="flex">
+            <p>@Botanukar INC,</p>
+            <p>Privacy Policy Terms & Conditions  Cookies</p>
+
+        </footer>
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="assets/js/javascript.js"></script>
+    <script src="assets/js/animateBox.js"></script>
+</body>
+</html>

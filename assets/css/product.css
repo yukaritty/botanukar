@@ -1,0 +1,53 @@
+/* here is for modal */
+/* .wrapper{
+    position:relative;
+} */
+.modal{
+    display: none;
+    /* position: absolute; */
+    top:0;
+    right:0;
+    padding-top: 100px;
+    width:25%;
+    height: 70%;
+    /* background: rgba(0,0,0,0.8); */
+    /* color: white; */
+}
+.modal-content{
+    width: 80%;
+    position: relative;
+    margin:0 auto;
+    border: 1px solid #A2A644;
+    border-radius: 2px;
+    animation-name: animateTop;
+    animation-duration: 0.6s;
+
+}
+
+@keyframes animateTop{
+    from {top:-300px; opacity:0;}
+    to{top:0; opacity:1;}
+}
+/* the end of modal */
+
+#product-search{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#item-nm{
+    display: inline;
+    font-size: 0.7em;
+}
+/* .item{
+    position: relative;
+} */
+@media(min-width:726px){
+    #product-search{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(min-width:1024px){
+    #product-search{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
