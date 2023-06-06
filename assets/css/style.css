@@ -77,8 +77,9 @@ header .information{
     padding: 10px;
 }
 #logo-menu{
-    width: 100px;
-    border-radius: 5px;
+    width: auto;
+    border-radius: 32px;
+    height: 64px;
 }
 .menu-wrapper, .menu-wrapper ul{
     display: flex;
