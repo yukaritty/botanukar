@@ -1,3 +1,19 @@
+// video controll
+
+var video = document.getElementById("myVideo");
+var vBtn = document.getElementById("videoBtn");
+
+function videoControl(){
+    if(video.paused){
+        video.play();
+        vBtn.innerHTML = "Pause";
+    }else{
+        video.pause();
+        vBtn.innerHTML = "Play";
+    }
+}
+
+
 $(function(){
 
 //----START bestselling slider

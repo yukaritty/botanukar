@@ -48,10 +48,20 @@
             </div>
         </header>
         <section class="video">
-            <video src="assets/videos/purple.mp4" controls>
+            <video autoplay muted loop id="myVideo">
+                <source src="assets/videos/purple.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
             </video>
+            <div class="video-content">
+                <h1>Botanukar</h1>
+                <h2>Deeply Relax with Botanical Essence Cosmetics</h2>
+                <button id="videoBtn" onclick="videoControl()">Pause</button>
+            </div>
 
         </section>
+        
+        <div class="clear-fix"></div>
+
         <section class="best-selling flex" id="best-selling">
             <h2>Best Selling Items</h2>
             <div id="slider">

@@ -15,6 +15,7 @@ font-family: 'Noto Sans', sans-serif;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
+
 h2{
     margin: 60px 0 20px 0;
 }
@@ -138,13 +139,60 @@ header .information{
     }
 }
 /* section video */
-.video video{
+/* .video{
+    margin: 0;
+} */
+#myVideo{
     margin: 60px 0 60px 0;
-    width: 82%;
+    width: 100%;
+    height: auto;
+    position:relative;
+}
+.video-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, 100%);
+    background: rgba(246, 222, 41, 0.305);
     border-radius: 20px;
-    /* margin: 20px 0 40px 0; */
+    width: 80%;    
+}
+.video-content h1{
+    font-size: 1.2em;
+    margin: 20px 0 0 0;
+    color: #D3D2D2;
+    text-shadow: 1px 1px 2px #3B2518;
+}
+.video-content h2{
+    font-size: 1em;
+    color: #D3D2D2;
+    text-shadow: 1px 1px 2px #3B2518;
+    margin: 5px 0 0 0;
+}
+.video button{
+    margin: 10px;
 }
 
+@media(min-width:720px){
+    .video-content{
+        top:50%;
+        left:50%;    
+        transform: translate(-50%, 80%);
+    }
+    .video-content h1{
+        margin: 60px 0 0 0;
+        font-size: 24px;
+    }
+    .video-content h2{
+        margin: 10px 0 0 0 ;
+        font-size: 18px;
+    }
+
+}
+
+.clear-fix{
+    clear: both;
+}
 /* section best selling */
 .slide img{
     width:300px;
