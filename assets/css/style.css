@@ -361,8 +361,8 @@ footer{
 }
 
 
-.control_next,
-.control_prev{
+.control_next1,
+.control_prev1{
     position:absolute;
     top: 40%;
     z-index: 20;
@@ -376,23 +376,23 @@ footer{
     transition: 0.3s ease;
 }
 
-.control_next{
+.control_next1{
     right:0;
     border-radius: 20px 0 0 20px;
 }
 
-.control_prev{
+.control_prev1{
     border-radius: 0 20px 20px 0;
 }
-.control_next:hover,.control_prev:hover{
+.control_next1:hover,.control_prev1:hover{
     background: rgba(0,0,0,.8);
 }
 
-.slider_option{
+/* .slider_option{
     margin: 10px auto;
     width: 160px;
     font-size: 18px;
-}
+} */
 
 
 /* here is for slider2 */
@@ -421,7 +421,7 @@ footer{
 .control_next2,
 .control_prev2{
     position:absolute;
-    top: 40%;
+    top: 30%;
     z-index: 20;
     display: block;
     background-color: rgba(0,0,0,.5);
@@ -433,23 +433,23 @@ footer{
     transition: 0.3s ease;
 }
 
-.control_next{
+.control_next2{
     right:0;
     border-radius: 20px 0 0 20px;
 }
 
-.control_prev{
+.control_prev2{
     border-radius: 0 20px 20px 0;
 }
-.control_next:hover,.control_prev:hover{
+.control_next2:hover,.control_prev2:hover{
     background: rgba(0,0,0,.8);
 }
 
-.slider_option{
+/* .slider_option{
     margin: 10px auto;
     width: 160px;
     font-size: 18px;
-}
+} */
 
 #animateBox1{
     position: relative;
