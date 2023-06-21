@@ -142,8 +142,10 @@ header .information{
 /* .video{
     margin: 0;
 } */
-#myVideo{
+.video{
     margin: 60px 0 60px 0;
+}
+#myVideo{
     width: 100%;
     height: auto;
     position:relative;
@@ -152,14 +154,14 @@ header .information{
     position:absolute;
     top:50%;
     left:50%;
-    transform: translate(-50%, 100%);
+    transform: translate(-50%, 50%);
     background: rgba(246, 222, 41, 0.305);
     border-radius: 20px;
     width: 80%;    
 }
 .video-content h1{
     font-size: 1.2em;
-    margin: 20px 0 0 0;
+    margin: 1em 0 0 0;
     color: #D3D2D2;
     text-shadow: 1px 1px 2px #3B2518;
 }
@@ -167,10 +169,11 @@ header .information{
     font-size: 1em;
     color: #D3D2D2;
     text-shadow: 1px 1px 2px #3B2518;
-    margin: 5px 0 0 0;
+    margin: 0.5em 0 0 0;
 }
 .video button{
-    margin: 10px;
+    margin: 1em auto;
+    padding: 6px 20px;
 }
 
 @media(min-width:720px){
@@ -180,11 +183,11 @@ header .information{
         transform: translate(-50%, 80%);
     }
     .video-content h1{
-        margin: 60px 0 0 0;
+        /* margin: 60px 0 0 0; */
         font-size: 24px;
     }
     .video-content h2{
-        margin: 10px 0 0 0 ;
+        /* margin: 10px 0 0 0 ; */
         font-size: 18px;
     }
 
@@ -361,8 +364,8 @@ footer{
 }
 
 
-.control_next,
-.control_prev{
+.control_next1,
+.control_prev1{
     position:absolute;
     top: 40%;
     z-index: 20;
@@ -376,23 +379,23 @@ footer{
     transition: 0.3s ease;
 }
 
-.control_next{
+.control_next1{
     right:0;
     border-radius: 20px 0 0 20px;
 }
 
-.control_prev{
+.control_prev1{
     border-radius: 0 20px 20px 0;
 }
-.control_next:hover,.control_prev:hover{
+.control_next1:hover,.control_prev1:hover{
     background: rgba(0,0,0,.8);
 }
 
-.slider_option{
+/* .slider_option{
     margin: 10px auto;
     width: 160px;
     font-size: 18px;
-}
+} */
 
 
 /* here is for slider2 */
@@ -421,7 +424,7 @@ footer{
 .control_next2,
 .control_prev2{
     position:absolute;
-    top: 40%;
+    top: 30%;
     z-index: 20;
     display: block;
     background-color: rgba(0,0,0,.5);
@@ -433,23 +436,23 @@ footer{
     transition: 0.3s ease;
 }
 
-.control_next{
+.control_next2{
     right:0;
     border-radius: 20px 0 0 20px;
 }
 
-.control_prev{
+.control_prev2{
     border-radius: 0 20px 20px 0;
 }
-.control_next:hover,.control_prev:hover{
+.control_next2:hover,.control_prev2:hover{
     background: rgba(0,0,0,.8);
 }
 
-.slider_option{
+/* .slider_option{
     margin: 10px auto;
     width: 160px;
     font-size: 18px;
-}
+} */
 
 #animateBox1{
     position: relative;
