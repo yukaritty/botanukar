@@ -46,6 +46,7 @@ button:hover{
     /* background: ; */
     /* opacity: .85; */
     background: #f2905758;
+    font-size: 1.2em;
     transition: .3s ease;
     cursor: pointer;
 }
